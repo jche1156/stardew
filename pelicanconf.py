@@ -1,5 +1,5 @@
 AUTHOR = 'John Chen'
-SITENAME = 'jhkc'
+SITENAME = 'JHKC'
 SITEURL = ''
 
 PATH = 'content'
@@ -18,14 +18,13 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', '#'),
+          ('E-Mail', '#'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
